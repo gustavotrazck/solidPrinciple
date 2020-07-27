@@ -1,0 +1,15 @@
+{
+    "name": "gustavo/app_poligonos",
+    "authors": [
+        {
+            "name": "Gustavo Souza",
+            "email": "osouzagts@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

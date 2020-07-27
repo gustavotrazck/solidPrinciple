@@ -1,0 +1,16 @@
+{
+    "name": "gustavo/app_etl",
+    "description": "etl",
+    "authors": [
+        {
+            "name": "Gustavo Trazck",
+            "email": "osouzagts@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

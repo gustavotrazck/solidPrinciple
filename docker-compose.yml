@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: thecodingmachine/php:7.4-v3-apache
+    volumes:
+      - ./src:/var/www/html/
+    ports:
+      - 80:80
